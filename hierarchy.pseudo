@@ -1,0 +1,15 @@
+                                    webserv program
+
+        listen_end_point      |     listen_end_point   |    listen_end_point
+    
+        Vserver   Vserver     |        Vserver          | Vserver   Vserver   Vserver
+
+        2 routes    3 routes            1 route           1 route   5 routes   2 routes
+
+
+The webserv program contains 1 or more listen_end_points
+    (unique combination of IP address and port)
+
+Each listen_end_point has is divided into 1 or more virtual servers
+
+Each virtual server contains 1 or more routes

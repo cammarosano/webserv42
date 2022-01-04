@@ -1,0 +1,4 @@
+classes with everything made public: of course it's a bad idea. 
+	I was just lazy to code a bunch of setters and getters.
+	That must be changed.
+
